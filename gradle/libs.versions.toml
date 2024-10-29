@@ -1,0 +1,124 @@
+[versions]
+compileSdk = "34"
+gson = "2.11.0"
+gsonVersion = "2.8.9"
+ktorServerCore = "2.3.12"
+ktorServerNetty = "2.3.12"
+lifecycleViewmodelKtx = "2.8.4"
+minSdk = "27"
+agp = "8.4.1"
+kotlin = "1.9.23"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.8.0"
+activityCompose = "1.9.0"
+composeBom = "2024.06.00"
+appcompat = "1.6.1"
+material = "1.12.0"
+
+org-jetbrains-kotlin-android = "1.9.22"
+coroutine-version = "1.7.1"
+coil-version = "2.5.0"
+retrofit2-version = "2.9.0"
+moshi-version = "1.15.1"
+room-version = "2.6.1"
+okhttp-version = "4.9.1"
+navigation-compose-version = "2.8.0-beta06"
+gms-version = "16.0.0"
+barcode-scanning-version = "17.2.0"
+cameraX-version = "1.3.3"
+lifecycle-version = "2.8.2"
+androidx-livedata-compose-version = "1.6.7"
+android-constraintlayout-compose-version = "1.0.1"
+securityCryptoKtx = "1.1.0-alpha06"
+timber-version = "5.0.1"
+hilt-android-version = "2.48.1"
+hilt-navigation-version = "1.2.0"
+matter-android-demo-sdk = "1.0"
+datastore-version = "1.1.1"
+google-protobuf = "0.9.1"
+protobuf-javalite = "3.18.0"
+composeMaterial = "1.3.1"
+eithernet-version = "1.8.1"
+kotlin-parcelize-version = "1.8.10"
+kotlin-serialization-version = "1.6.3"
+kotlin-serialization-plugin-version = "2.0.0"
+tink-version = "1.7.0"
+
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-security-crypto-ktx = { module = "androidx.security:security-crypto-ktx", version.ref = "securityCryptoKtx" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+gson-v289 = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-lifecycle-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle-version" }
+androidx-livedata-compose = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "androidx-livedata-compose-version" }
+android-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "android-constraintlayout-compose-version" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "ktorServerCore" }
+ktor-server-netty = { module = "io.ktor:ktor-server-netty", version.ref = "ktorServerNetty" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+coroutine = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutine-version" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-version" }
+retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2-version" }
+retrofit2-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit2-version" }
+okHttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp-version" }
+okHttp3-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp-version" }
+moshi = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi-version" }
+moshi-adapter = { group = "com.squareup.moshi", name = "moshi-adapters", version.ref = "moshi-version" }
+moshi-kapt = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi-version" }
+androidx-room = { group = "androidx.room", name = "room-runtime", version.ref = "room-version" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room-version" }
+androidx-room-kapt = { group = "androidx.room", name = "room-compiler", version.ref = "room-version" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose-version" }
+gms = { group = "com.google.android.gms", name = "play-services-home", version.ref = "gms-version" }
+barcode-scanning = { group = "com.google.mlkit", name = "barcode-scanning", version.ref = "barcode-scanning-version" }
+cameraX-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraX-version" }
+cameraX-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraX-version" }
+cameraX-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraX-version" }
+cameraX-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraX-version" }
+cameraX-camera-extension = { group = "androidx.camera", name = "camera-extensions", version.ref = "cameraX-version" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber-version" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-android-version" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt-android-version" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-version" }
+matter-android-demo-sdk = { group = "com.google.matter", name = "matter-android-demo-sdk", version.ref = "matter-android-demo-sdk" }
+datastore-core = { group = "androidx.datastore", name = "datastore-core", version.ref = "datastore-version" }
+datastore = { group = "androidx.datastore", name = "datastore", version.ref = "datastore-version" }
+protobuf-javalite = { group = "com.google.protobuf", name = "protobuf-javalite", version.ref = "protobuf-javalite" }
+androidx-compose-material = { group = "androidx.wear.compose", name = "compose-material", version.ref = "composeMaterial" }
+eithernet = { group = "com.slack.eithernet", name = "eithernet", version.ref = "eithernet-version" }
+kotlin-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlin-serialization-version" }
+kotlin-serialization-protobuf = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-protobuf", version.ref = "kotlin-serialization-version" }
+tink = { group = "com.google.crypto.tink", name = "tink-android", version.ref = "tink-version" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroidKsp = { id = "org.jetbrains.kotlin.kapt", version.ref = "org-jetbrains-kotlin-android" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-android-version" }
+google-protobuf = { id = "com.google.protobuf", version.ref = "google-protobuf" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin-parcelize-version" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin-serialization-plugin-version" }
+
+

@@ -1,0 +1,68 @@
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.kotlinAndroidKsp)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.kotlin.serialization)
+}
+
+android {
+    namespace 'com.intecular.invis.data'
+    compileSdk libs.versions.compileSdk.get().toInteger()
+
+    defaultConfig {
+        minSdk libs.versions.minSdk.get().toInteger()
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.5.13'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+}
+
+dependencies {
+
+    implementation project(":common-ui-resource")
+    implementation project(":base")
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+
+    implementation platform(libs.androidx.compose.bom)
+    implementation libs.androidx.ui
+    implementation libs.androidx.ui.graphics
+
+    api libs.retrofit2
+    api libs.retrofit2.converter.moshi
+    api libs.okHttp3
+    implementation libs.okHttp3.interceptor
+    api libs.eithernet
+
+    api libs.moshi
+    api libs.moshi.adapter
+    kapt libs.moshi.kapt
+
+    api libs.androidx.room
+    api libs.androidx.room.ktx
+    kapt libs.androidx.room.kapt
+
+    //Hilt
+    implementation libs.hilt.android
+    kapt libs.hilt.compiler
+
+    implementation libs.kotlin.serialization
+    implementation libs.kotlin.serialization.protobuf
+
+    implementation libs.tink
+
+
+}

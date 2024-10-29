@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">invishome-android</string>
+    <string name="home">Home</string>
+    <string name="automation">Automation</string>
+    <string name="settings">Settings</string>
+    <string name="add_device">Add Device</string>
+    <string name="add_room">Add Room</string>
+    <string name="edit_house">Edit House</string>
+    <string name="scan_matter_qr_code">Scan Matter QR code</string>
+    <string name="make_sure_your_accessory_is_powered">Make sure your accessory is powered on and nearby with your phone’s Bluetooth turned on.</string>
+    <string name="cancel">Cancel</string>
+    <string name="turn_on">Turn on</string>
+    <string name="otherwise_this_function_cannot_be_used">Permission must be given, otherwise this function cannot be used</string>
+    <string name="refresh">Refresh</string>
+    <string name="outlet_status_on">On</string>
+    <string name="outlet_status_off">Off</string>
+    <string name="night_light">Nightlight</string>
+    <string name="sign_in_to_your_invis_home">Sign in to your InvisHome</string>
+    <string name="manage_devices_and_connect_services">Manage devices and connect services</string>
+    <string-array name="setting_item_title_array">
+        <item>Assistant Linking</item>
+        <item>Preferences</item>
+        <item>Notifications</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="setting_item_content_array">
+        <item>Link to other services and platforms</item>
+        <item>Change to your preferred units</item>
+        <item>Manage app notifications</item>
+        <item>Privacy policy</item>
+    </string-array>
+
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="new_password">New password</string>
+    <string name="old_password">Old password</string>
+    <string name="forgot_your_password">Forgot password?</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="register">Register</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset_password_email_will_be_sent">A reset password email will be sent to your inbox to reset your password for your InvisHome account.</string>
+    <string name="create_account">Create account</string>
+    <string name="change_name">Change Name</string>
+    <string name="change_password">Change Password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account">Delete account</string>
+    <string name="do_you_want_to_sign_out">Sign out?</string>
+    <string name="do_you_want_to_delete_account">Delete account?</string>
+    <string name="apply">Apply</string>
+    <string name="verify">Verify</string>
+    <string name="verification">Verification</string>
+    <string name="six_digit_verification_code">6-Digit Verification Code</string>
+    <string name="do_you_really_want_to_sign_out_your_account">Do you really want to sign out your account?</string>
+    <string name="your_account_information_will_not_be_lost">Your account information will not be lost.</string>
+    <string name="delete_account_will_unlink_your_devices">Delete account will unlink your devices with Amazon Alexa and Google Assistant. </string>
+    <string name="will_not_be_unpaired_and_still_can_be_controlled">However, paired accessories will not be unpaired and still can be controlled from InvisHome app within home network.</string>
+    <string name="enter_new_name_to_change_your_account_name">Enter a new name to change your account name.</string>
+    <string name="enter_new_password_to_change_your_account_password">Enter a new password to change your account password.</string>
+    <string name="enter_your_old_password">Enter your old password</string>
+    <string name="type_new_password_again">Please type in the new password again.</string>
+    <string name="please_enter_the_six_digit_verification">Please enter the 6-digit verification code that has been sent to your email.</string>
+    <string name="password_requirements">Password requirements</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="password_does_not_match">Password does not match.</string>
+    <string name="reset">Reset</string>
+    <array name="setting_option">
+        <item>Edit Device Name</item>
+        <item>Edit Device Details</item>
+        <item>Customizations</item>
+        <item>Device Information</item>
+        <item>Software Update</item>
+        <item>Device Management</item>
+    </array>
+</resources>
